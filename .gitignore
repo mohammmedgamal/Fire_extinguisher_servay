@@ -10,3 +10,11 @@
 .cxx
 *.apk
 *.keystore
+
+# Xcode
+ios/build/
+ios/Payload/
+*.ipa
+xcuserdata/
+*.xcuserstate
+DerivedData/

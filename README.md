@@ -1,6 +1,11 @@
-# Fire Extinguisher Survey (Android)
+# Fire Extinguisher Survey (Android + iPhone)
 
-Android app for power plant operators to survey fire extinguishers by scanning the QR code on each one.
+Mobile app for power plant operators to survey fire extinguishers by scanning the QR code on each one.
+
+- **Android**: the Gradle project in this folder's root (`app/`)
+- **iPhone / iPad**: the Xcode project in [`ios/`](ios/README.md)
+
+Both apps have the same features and use the same QR codes, so the same labels work with either app.
 
 ## What it does
 
@@ -32,7 +37,7 @@ Other features:
 The QR code simply contains the extinguisher's unique ID text, e.g. `FE-U2-TH-003`. You can use
 existing QR labels (whatever text they contain becomes the ID) or print new ones from the app.
 
-## Build
+## Build (Android)
 
 Requirements: Android Studio (Ladybug or newer) or JDK 17 + Android SDK 35.
 
